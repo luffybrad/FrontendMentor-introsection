@@ -11,11 +11,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <!--custom css-->
     <link rel="stylesheet" href="index.css">
+      <!--fontawesome cdn-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!--font addition-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap" rel="stylesheet">
+    
     <title>Snap</title>
   </head>
   <body>
@@ -32,10 +35,11 @@
                   Features
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="icon-todo.svg">&nbsp;To do list</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="icon-calendar.svg">&nbsp;Calendar</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="icon-reminders.svg">&nbsp; Reminders</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="icon-planning.svg">&nbsp; Planning</a></li>
+
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -43,10 +47,9 @@
                   Company
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">History</a></li>
+                  <li><a class="dropdown-item" href="#">Our Team</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
                 </ul>
               </li>
             <li class="nav-item">
@@ -74,11 +77,13 @@
         <div class="row bannerRow">
             <div class="col-md-6">
                 <h1 class="bannerTitle"><strong>Make <br>remote work</strong></h1>
+                <div class="paragraph container">
                 <p class="paragraph">
-                    Get your team in sync, no matter your location. <br>Streamline 
+                    Get your team in sync, no matter your location. Streamline 
                     processes, create team rituals, and watch productivity soar.
                 </p>
-                <a class="btn btn-dark px-3 customButton" href="#">Learn more</a>
+            </div>
+                <a class="btn px-3 customButton" href="#">Learn more</a>
                 <div class="row brandsRow">
                     <div class="col">
                         <img src="client-databiz.svg">
@@ -94,7 +99,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 imgMkt">
                 <img src="image-hero-desktop.png" class="img-fluid d-block w-100">
             </div>
         </div>

@@ -1,34 +1,66 @@
 .bannerTitle{
     font-size: 70px;
     font-weight: bolder;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .customButton{
     border-radius: 8px;
     margin-bottom: 50px;
     text-align: center;
     justify-content: center;
+    background-color: black;
+    color: white;
 }
 .registerButton{
     border-style: solid 2px;
     border-color: grey;
     border-radius: 8px;
 }
-p, nav{
+p, nav, .dropdown-item{
     color: hsl(0, 0%, 41%) !important;
+}
+.dropdown-item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dropdown-menu{
+    border-radius:20px
 }
 body{
     font-family: 'Epilogue', sans-serif;
 }
-p{
-    font-size: 18px
-}
 .paragraph{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .brandsRow{
     padding-top: 50px;
     padding-bottom: 50px;
+}
+/*all links hover*/
+a:hover{
+    cursor: pointer;
+    color: black;
+}
+/* "learn more" hovering transformation*/
+.customButton:hover{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color:black;
+}
+/*hovering dropdowon nav-display*/
+.dropdown:hover .dropdown-menu{
+    display:inline-block !important;
+    margin-top: 0px !important;
+}
+/*align paragraph text*/
+.paragraph{
+    text-align: justify;
+    justify-content: justify;
+}
+p{
+    line-height: 30px;
+    font-size: 18px;
 }
