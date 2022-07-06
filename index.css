@@ -64,3 +64,15 @@ p{
     line-height: 30px;
     font-size: 18px;
 }
+.bannerRpw{
+    display: flex;
+}
+/* media breakpoints order for div elements*/
+@media(max-width: 768px){
+    .wrdMkt{
+        order: 2;
+    }
+    .imgMkt{
+        order: 1;
+    }
+}
